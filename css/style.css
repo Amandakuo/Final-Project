@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  font-family: 標楷體;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2017/02/09/13/39/consent-2052052_1280.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: #f06966;
+  padding: 100px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #f8b500;
+}
+header.jumbotron h4 {
+  color: #fc3c3c;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #f8b500;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  height: 350px;
+  background-size: cover;
+  mix-blend-mode: hard-light;
+}
+section#section_ask .col-sm-7 {
+  text-align: center;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 100%;
+}
